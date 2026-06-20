@@ -122,6 +122,14 @@
     animation: fadeUp 0.7s ease 0.8s forwards;
   }
 
+  .hero-eyebrow,
+  .hero-title,
+  .hero-sub,
+  .hero-badge {
+    position: relative;
+    z-index: 1;
+  }
+
   .hero-scroll {
     position: absolute;
     bottom: 32px;
@@ -136,6 +144,8 @@
     letter-spacing: 0.15em;
     opacity: 0;
     animation: fadeUp 0.7s ease 1.1s forwards;
+    z-index: 1;
+    white-space: nowrap;
   }
 
   .hero-scroll-line {
